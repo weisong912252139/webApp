@@ -1,0 +1,138 @@
+.eight-slide{
+	background: rgb(21,21,21);
+	position: relative;
+	overflow: hidden;
+}
+
+/*第八页的色块定位*/
+.eight .eight-flag{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.eight .eight-flag img{
+	position: absolute;
+}
+
+/*第一个*/
+.eight .eight-flag img:nth-child(1){
+	top: 6%;
+	left: -6%;
+	width: 6.5%;
+}
+
+/*第二个*/
+.eight .eight-flag img:nth-child(2){
+	top: 30%;
+	left: 130%;
+	width: 37%;
+	transform: rotate(210deg);
+}
+
+/*第三个*/
+.eight .eight-flag img:nth-child(3){
+	top: 20%;
+	left: 110%;
+	width: 41%;
+	transform: rotate(-50deg);
+	z-index: 2;
+}
+
+/*第四个*/
+.eight .eight-flag img:nth-child(4){
+	top: 10%;
+	left: -50%;
+	width: 35%;
+	transform: rotate(-50deg);
+}
+
+/*第五个*/
+.eight .eight-flag img:nth-child(5){
+	top: -3%;
+	left: 100%;
+	width: 22.5%;
+	transform: rotate(-20deg);
+}
+
+/*第六个*/
+.eight .eight-flag img:nth-child(6){
+	top: 20%;
+	left: 100%;
+	width: 14%;
+	transform: rotate(10deg);
+}
+
+/* 对文字进行设置*/
+.eight .eight-word{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	width: 81%;
+	height: 100%;
+	/*border: 1px solid red;*/
+}
+
+/*战略合作伙伴*/
+.eight .eight-word img:nth-child(1){
+	position: absolute;
+	left: 120%;
+	opacity: 0;
+	right: 0;
+	margin: auto;
+	top: 10%;
+	width: 60%;
+	z-index: 10;
+}
+/*主办方*/
+.eight .eight-word img:nth-child(2){
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 29%;
+	width: 65%;
+	opacity: 0;
+}
+
+/*联合主办*/
+.eight .eight-word img:nth-child(3){
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 45%;
+	width: 50%;
+	opacity: 0;
+}
+
+/* 对个个公司进行定位*/
+.eight .eight-company{
+  position: absolute;
+  left: 0;
+  top: 68%;
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
+}
+.eight .eight-company img:nth-child(1){
+	width: 25%;
+	position: absolute;
+	left: 5%;
+	top: 85%;
+} 
+.eight .eight-company img:nth-child(2){
+	width: 25%;
+	position: absolute;
+	left: 37.5%;
+	top: 85%;
+} 
+.eight .eight-company img:nth-child(3){
+	width: 25%;
+	position: absolute;
+	left: 70%;
+	top: 85%;
+} 

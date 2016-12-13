@@ -1,0 +1,269 @@
+.four{
+	background: url(../img/bg.jpg);
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.show{
+	visibility: hidden;
+}
+
+.four .show .swiper-wrapper{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	
+}
+
+.four .show .swiper-slide{
+	transform: scale(0);
+	background: transparent;
+	/*position: relative;*/
+	/*background: url(../img/bg.jpg);*/
+}
+
+.four .swiper-container-h .closeBtn{
+	position: absolute;
+	left: 6%;
+	top: 8%;
+	z-index: 9999;
+	width: 50px;
+	height: 50px;
+    background: url(../img/pagefour/x.png) no-repeat;
+    background-size: 100%;
+}
+
+/*定义文字动画*/
+
+.four .four-word span:nth-child(1){
+	position: absolute;
+	left: -40%;
+	top: 30%;
+	opacity: 0;
+	width: 100%;
+	z-index: 22;
+	color: white;
+	font-size: 0.5rem;
+}
+.four .four-word span:nth-child(2){
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 35%;
+	opacity: 0;
+	z-index: 22;
+	color: white;
+	font-size: 0.5rem;
+}
+/*.four .four-word span:nth-child(1) {
+	position: absolute;
+	left: -40%;
+	top: 10%;
+	opacity: 0;
+}*/
+/*.four .four-word span:nth-child(2) {
+
+	opacity: 0;
+	transform: scale(0);
+}*/
+
+/*背景小球的设置*/
+
+.four .four-ball{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transform: scale(0);
+}
+
+/*定义圆点*/
+.four .circleDot img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 7%;
+	/*line-height: 100%;*/
+	z-index:60;
+
+	/*background: red;*/
+}
+/*.four .circleDot img{
+	width: 10%;
+	background: red;
+}*/
+
+.four .four-line img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+
+}
+/*.four .four-line img{
+	width: 100%;
+}*/
+
+
+.four .four-people div{
+	position: absolute;
+	background-size: 100%;
+	z-index: 10;
+	/*border-radius: 15px;*/
+}
+
+.circle1{
+	width: 16%;
+	height: 11.5%;
+	left: 40%;
+	top: 50%;
+	transform: scale(0) rotate(60deg);
+	
+	background: url(../img/pagefour/liuyong.png) no-repeat;
+}
+.circle2{
+	width: 16%;
+	height: 11.5%;
+	left: 39%;
+	top: 52%;
+	transform: scale(0) rotate(160deg);
+	background: url(../img/pagefour/gy.png) no-repeat;
+}
+.circle3{
+	width: 16%;
+	height: 11.5%;
+	left: 33%;
+	top: 50%;
+	transform: scale(0) rotate(-60deg);
+	background: url(../img/pagefour/aluo.png) no-repeat;
+}
+.circle4{
+	width: 16%;
+	height: 11.5%;
+	left: 42%;
+	top: 52%;
+	transform: scale(0) rotate(100deg);
+	background: url(../img/pagefour/shenxiaohui.png) no-repeat;
+}
+.circle5{
+	width: 16%;
+	height: 11.5%;
+	left: 32%;
+	top: 51%;
+	transform: scale(0) rotate(-200deg);
+	background: url(../img/pagefour/madong.png) no-repeat;
+}
+.circle6{
+	width: 16%;
+	height: 11.5%;
+	left: 34%;
+	top: 52%;
+	transform: scale(0) rotate(180deg);
+	background: url(../img/pagefour/wangzhuang.png) no-repeat;
+}
+.circle7{
+	width: 16%;
+	height: 11.5%;
+	left: 42%;
+	top: 50%;
+	transform: scale(0) rotate(150deg);
+	background: url(../img/pagefour/wqg.png) no-repeat;
+}
+.circle8{
+	width: 16%;
+	height: 11.5%;
+	left: 42%;
+	top: 49%;
+	transform: scale(0) rotate(-160deg);
+	background: url(../img/pagefour/wxf.png) no-repeat;
+}
+.circle9{
+	width: 43px;
+	height: 50px;
+	background: rgba(24,40,64,.7);
+	left: 40%;
+	top: 50%;
+	transform: scale(0) rotate(-130deg);
+	border-radius: 50%;
+}
+.circle10{
+	width: 20px;
+	height: 25px;
+	background: rgba(169,106,246,.7);
+	left: 40%;
+	top: 50%;
+	transform: scale(0) rotate(-85deg);
+	border-radius: 50%;
+}
+.circle11{
+	width: 20px;
+	height: 25px;
+	background: rgba(18,62,82,1);
+	left: 40%;
+	top: 50%;
+	transform: scale(0);
+	border-radius: 50%;
+}
+.circle12{
+	width: 18px;
+	height: 23px;
+	background: rgba(15,122,182,1);
+	left: 40%;
+	top: 50%;
+	transform: scale(0);
+	z-index: 5;
+	border-radius: 50%;
+}
+.circle13{
+	width: 22px;
+	height: 22px;
+	background: rgba(122,200,180,.5);
+	left: 38%;
+	top: 51%;
+	transform: scale(0);
+	z-index: 5;
+	border-radius: 50%;
+}
+.circle14{
+	width: 30px;
+	height: 30px;
+	background: rgba(180,200,10,.2);
+	left: 38%;
+	top: 55%;
+	transform: scale(0);
+	z-index: 5;
+	border-radius: 50%;
+}
+.circle15{
+	width: 50px;
+	height: 50px;
+	background: rgba(100,19,255,.6);
+	left: 39%;
+	top: 50%;
+	transform: scale(0);
+	z-index: 5;
+	border-radius: 50%;
+	-webkit-tap-highlight-color: rgb(0,0,0);
+}
+/*.circle1,.circle2,.circle3,.circle4,.circle5,.circle6,.circle7,.circle8,.circle9,.circle10,.circle11{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-size: 100%;
+	z-index: 10;
+}*/

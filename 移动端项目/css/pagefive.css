@@ -1,0 +1,324 @@
+.five-slide{
+	background: rgb(21,21,21);
+	background-size: 100% 100%;
+	position: relative;
+}
+.five .five-tipClick{
+	position: absolute;
+	left: 32%;
+	top: 74%;
+	z-index: 10;
+	opacity: 1;
+	display: none;
+}
+
+.five div.tipClick{
+	animation: tipClick 1s infinite alternate;
+}
+@keyframes tipClick{
+	from{opacity: 1;}
+	to{opacity: 0;}
+}
+
+/*文字的定位*/
+.five .five-word{
+	position: absolute;
+	left: 10%;
+	top: 3%;
+	opacity: 0;
+	width: 39%;
+	height: 15%;
+}
+.five .five-word img{
+	width: 100%;
+	height: 100%;
+}
+
+/*people 定位*/
+.five .five-image .group1,.list .list1{
+	position: absolute;
+	left: 49.5%;
+	top: 17.5%;
+	width: 24%;
+	height: 17%;
+	transform: rotateZ(15deg);
+	overflow: hidden;
+}
+.list .cancel{
+	animation: cancel 15s ease forwards;
+}
+
+@keyframes cancel{
+	to{transform: scale(0) rotateZ(15deg);left: 49.5%;top: 17.5%;width: 24%;height: 17%;}
+}
+.five .five-image .box-shadow{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 101%;
+	left: 0;
+	top: 0;
+	background: url(../img/pagefive/gy.png);
+	background-size: 100% 100%;
+	transform: rotateZ(-15deg);
+}
+/*.five .five-image .people{
+	position: absolute;
+	width: 68%;
+	height: 72%;
+	margin: 0 auto;
+	left: 10px;
+	top: 5px;
+	
+}
+.five .five-image .people img{
+	width: 100%;
+	height: 100%;
+	border: none;
+	vertical-align: top;
+}*/
+
+/*人头像的初始位置*/
+
+.five .five-image .people{
+	position: absolute;
+	width: 60%;
+	height: 66%;
+	margin: 0 auto;
+	left: 33.5%;
+	top: 27%;
+	z-index: 1;
+	
+}
+.five .five-image .people img{
+	width: 100%;
+	height: 100%;
+	border: none;
+	vertical-align: top;
+}
+/*玻璃的位置*/
+.five .five-image .glass{
+	width: 60%;
+	height: 66%;
+	position: absolute;
+	left: 33.5%;
+	top: 27%;
+	z-index: 2;
+}
+/*.five .five-image div.active{
+	animation: glassSlide 1s ease forwards;
+}
+
+@keyframes glassSlide{
+	from{top:27%}
+	to{top:100%}
+}*/
+
+.five .five-image .glass>img{
+	width: 100%;
+	height: 100%;
+	border: none;
+	vertical-align: top;
+}
+
+/*二个*/
+
+.five .five-image .group2,.list .list2{
+	position: absolute;
+	left: 77.5%;
+	top: 21.5%;
+	width: 24%;
+	height: 17%;
+	transform: rotateZ(15deg);
+	overflow: hidden;
+}
+
+
+/*三个*/
+
+.five .five-image .group3,.list .list3{
+	position: absolute;
+	left: 3%;
+	top: 22%;
+	width: 24%;
+	height: 17%;
+	transform: rotateZ(15deg);
+	overflow: hidden;
+}
+
+/*四个*/
+
+.five .five-image .group4,.list .list4{
+	position: absolute;
+	left: 24.5%;
+	top: 37%;
+	width: 24%;
+	height: 17%;
+	transform: rotateZ(15deg);
+	overflow: hidden;
+}
+
+/*五个*/
+
+.five .five-image .group5,.list .list5{
+	position: absolute;
+	left: 52.5%;
+	top: 41%;
+	width: 24%;
+	height: 17%;
+	transform: rotateZ(15deg);
+	overflow: hidden;
+}
+
+/*六个*/
+
+.five .five-image .group6,.list .list6{
+	position: absolute;
+	left: 74.5%;
+	top: 56%;
+	width: 24%;
+	height: 17%;
+	transform: rotateZ(15deg);
+	overflow: hidden;
+}
+
+/*七个*/
+
+.five .five-image .group7,.list .list7{
+	position: absolute;
+	left: 1.5%;
+	top: 56.8%;
+	width: 24%;
+	height: 17%;
+	transform: rotateZ(15deg);
+	overflow: hidden;
+}
+
+/*八个*/
+
+.five .five-image .group8,.list .list8{
+	position: absolute;
+	left: 42%;
+	top: 63%;
+	width: 24%;
+	height: 17%;
+	transform: rotateZ(15deg);
+	overflow: hidden;
+}
+
+/*九个*/
+
+.five .five-image .group9,.list .list9{
+	position: absolute;
+	left: 64.5%;
+	top: 78%;
+	width: 24%;
+	height: 17%;
+	transform: rotateZ(15deg);
+	overflow: hidden;
+}
+
+/*十个*/
+
+.five .five-image .group10,.list .list10{
+	position: absolute;
+	left: 18.6%;
+	top: 82.5%;
+	width: 24%;
+	height: 17%;
+	transform: rotateZ(15deg);
+	overflow: hidden;
+}
+
+
+/*单个点击事件的处理*/
+.list{
+	width: 100%;
+	height: 100%;
+}
+
+/*.list .list1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	width: 85%;
+	height: 75%;
+	background: rgb(21,21,21);
+}*/
+.list .every-one{
+	background: rgb(21,21,21);
+	transform: scale(0) rotateZ(15deg);
+}
+/*.list .list1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: auto;
+	width: 85%;
+	height: 75%;
+	background: rgb(21,21,21);
+}*/
+
+.list .every-one .cancelBtn{
+	height: 8.5%;
+	width: 100%;
+	overflow: hidden;
+	background: red;
+}
+.list .cancelBtn img{
+	float: right;
+	width: 18%;
+	height: 100%;
+}
+.list .every-one .people>img{
+	width: 100%;
+}
+.list .every-one .people h5{
+	color: #fff;
+	font-size: 0.35rem;
+	line-height: 0.5rem;
+	text-align: left;
+	padding:0 0.5rem;
+	height: 0.5rem;
+}
+.list .every-one .people p{
+	padding: 0 0.5rem;
+	color: #fff;
+	font-size: 0.2rem;
+	line-height: 0.4rem;
+	text-align: left;
+	font-weight: 100;
+}
+
+/*.list .list1{
+	
+	animation: list1 2s ease forwards;
+}*/
+.list .active{
+	animation: list 15s ease forwards;
+}
+@keyframes list{
+	to{transform: scale(1) rotateZ(0deg);left: 7.5%;top: 12.5%;width: 85%;height: 75%;}
+}
+
+/*.list .list1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	width: 85%;
+	height: 75%;
+	background: rgb(21,21,21);
+}*/
+
+
+
+
+
+
+

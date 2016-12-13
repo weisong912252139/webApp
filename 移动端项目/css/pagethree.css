@@ -1,0 +1,128 @@
+.three-slide{
+	background: url(../img/bg.jpg);
+}
+
+.three{
+	
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.three img{
+	position: absolute;
+}
+.three img:nth-child(1){
+	left: 21%;
+	top: 5%;
+	width: 15%;
+	animation: threeMove1 10s linear infinite alternate;
+}
+
+@keyframes threeMove1{
+	0%{left: 21%;top: 5%}
+	25%{left: 22%;top: 6%}
+	50%{left: 23%;top: 7%}
+	75%{left: 24%;top: 8%}
+	100%{left: 25%;top: 9%}
+}
+.three img:nth-child(2){
+	left: 51.8%;
+	top: 10%;
+	width: 47%;
+	animation: threeMove2 12s linear infinite alternate;
+}
+
+@keyframes threeMove2{
+	0%{left: 51.8%;top: 10%}
+	25%{left: 52.8%;top: 9%}
+	50%{left: 53.8%;top: 8%}
+	75%{left: 54.8%;top: 7%}
+	100%{left: 55.8%;top: 6%}
+}
+.three img:nth-child(3){
+	left: 4.5%;
+	top: 25.5%;
+	width: 44.5%;
+	animation: threeMove3 13s linear infinite alternate;
+}
+@keyframes threeMove3{
+	0%{left: 4.5%;top: 25.5%}
+	25%{left: 4.55%;top: 26%}
+	50%{left: 4.58%;top: 26.8%}
+	75%{left: 4.62%;top: 27.5%}
+	100%{left: 4.7%;top: 28.4%}
+}
+
+.three img:nth-child(4){
+	left: 82.5%;
+	top: 33.9%;
+	width: 11%;
+	animation: threeMove4 15s linear infinite alternate;
+}
+@keyframes threeMove4{
+	0%{left: 82.5%;top: 33.9%}
+	25%{left: 83%;top: 34.3%}
+	50%{left: 84%;top: 35%}
+	75%{left: 84.6%;top: 35.8%}
+	100%{left: 85%;top: 36.5%}
+}
+.three img:nth-child(5){
+	left: 6.5%;
+	top: 54.7%;
+	width: 43%;
+	animation: threeMove5 15s linear infinite alternate;
+}
+@keyframes threeMove5{
+	0%{left: 6.5%;top: 54.7%}
+	25%{left: 7%;top: 55.4%}
+	50%{left: 7.5%;top: 56.5%}
+	75%{left: 8.5%;top: 57.3%}
+	100%{left: 8.9%;top: 58.2%}
+}
+.three img:nth-child(6){
+	left: 39%;
+	top: 39.5%;
+	width: 60%;
+	animation: threeMove6 16s linear infinite alternate;
+}
+@keyframes threeMove6{
+	0%{left: 39%;top: 39.5%}
+	25%{left: 40%;top: 40.2%}
+	50%{left:41%;top: 41%}
+	75%{left: 42%;top: 41.8%}
+	100%{left: 43%;top: 42.3%}
+}
+.three img:nth-child(7){
+	left: 13.5%;
+	top: 82.9%;
+	width: 11%;
+	animation: threeMove7 14s linear infinite alternate;
+}
+@keyframes threeMove7{
+	0%{left: 13.5%;top: 82.9%}
+	25%{left: 14%;top: 83.2%}
+	50%{left:14.5%;top: 84.5%}
+	75%{left: 15%;top: 85.2%}
+	100%{left: 15.6%;top: 86.5%}
+}
+.three img:nth-child(8){
+	left: 48.5%;
+	top: 67.5%;
+	width: 43%;
+	animation: threeMove8 12s linear infinite alternate;
+}
+@keyframes threeMove8{
+	0%{left: 48.5%;top: 67.5%}
+	25%{left: 49.5%;top: 68%}
+	50%{left: 51%;top: 69%}
+	75%{left: 51.5%;top: 70%}
+	100%{left: 52.6%;top: 71%}
+}
+
+/*.three img:nth-child(2){
+	left: 51.8%;
+	top: 10%;
+	width: 47%;
+	animation: threeMove 3s ease-in-out infinite alternate;
+}*/
+
